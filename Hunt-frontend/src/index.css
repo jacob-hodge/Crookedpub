@@ -1,0 +1,135 @@
+/* colour palette
+#feed92 - light yellow
+#fdc16a - light orange
+#e07c48 - orange
+#723932 - brown
+#211c1f - dark
+*/
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#main {
+  width: 80%; 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  margin-top: 20px;
+}
+
+
+.lobby {
+  background-color: #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+
+.question-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.dropdown-container {
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allows elements to wrap to the next line if needed */
+}
+
+
+.dropdown-container select,
+.dropdown-container input[type="checkbox"] {
+  margin: 5px; /* Adjust margin as needed */
+}
+
+.check-button,
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative; /* Enable positioning */
+  z-index: 1;
+}
+
+.download-button:hover,
+.check-button:hover {
+  background-color: #0056b3;
+}
+
+
+.lobby h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+
+.lobbycode-section {
+  margin-bottom: 15px;
+}
+
+.game-instructions {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.joinedUsers-section {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.question-section {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hint-button {
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.dropdown {
+  margin-right: 10px;
+}
